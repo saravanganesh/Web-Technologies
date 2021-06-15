@@ -1,0 +1,76 @@
+<html>
+      <head>
+	<title>Working on table tag</title>
+	<style>
+		body{
+			background-color: lightyellow;
+			padding-top: 10%;
+		}
+		th{
+ 			background-color: teal;
+			color: ghostwhite;
+			height: 50px;
+		}
+		table{
+			width: 50%;
+			font-size: large;
+		}
+		td {
+			text-align: center;
+		}
+		tr:hover{
+			background-color: #ccccb3;
+		}
+
+	</style>
+      </head>
+      <body>
+	<center>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th colspan="2">MOBILE</th>
+		</tr>
+		<tr>
+			<td>123</td>
+			<td>Selena</td>
+			<td>9786543210</td>
+			<td>6523566933</td>
+		</tr>
+		<tr>
+			<td>865</td>
+			<td>Charlie</td>
+			<td>8565638965</td>
+			<td>7865626869</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+	<br/>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<td>123</td>
+			<td>865</td>			
+
+		</tr>
+		<tr>
+			<th>NAME</th>
+			<td>Selena</td>
+			<td>Charlie</td>
+
+		</tr>
+		<tr>
+			<th rowspan="2">MOBILE</th>
+			<td>9786543210</td>
+			<td>8565638965</td>
+		</tr>
+		<tr>
+			<td>6523566933</td>
+			<td>7865626869</td>
+		</tr>
+	</table>
+	</center>
+     </body>
+</html>
