@@ -1,0 +1,70 @@
+<!-- Exp 2.1) Using Form Tags, Create a Login form -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!-- jQuery library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title>container</title>
+        <!-- Latest compiled JavaScript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                padding: 60px;
+                font-family:sans-serif;
+                font-size: medium;
+                background-image:url("form bg.jpg");
+                background-repeat:no-repeat;
+                height: 100px;
+                width: 15%;  
+                object-fit: cover; 
+                object-position: center;  
+                color: white;                     
+            }
+        
+            form {
+                padding: 15px;
+                border: 4px solid #ff8080;
+                margin-top: 70px;
+                background-color: MediumAquaMarine;
+                border-radius: 10%;
+                color: black;
+            }
+            input[type=submit]  {
+            background-color: gray;
+            border: none;
+            color: white;
+            margin-left: 2px;
+            border-radius: 5px;
+            padding: 7px 20px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <center class="h1">LOGIN FORM</center>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                     <form action="/signin" method="post">
+                        <label>Username</label>
+                        <input type="text" placeholder="Enter name" name="uname">
+                        <br>
+                        <br>
+                        <label> Password</label>
+                        <input type="password" placeholder="Enter password" name="pass">
+                        <br>
+                        <br>
+                        <input type="submit" value="Login">
+                        <br>
+                        <br>
+                        <a href="forgot.html">Forgot Password?</a>
+                     </form>
+                </div>
+            </div>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+h1
+{		
+	color:blue;
+	font-family: garamond; 
+	font-size:20pt;
+	text-decoration:underline double;
+}
+
+h2
+{		
+	color:green;
+	font-family:ui-monospace; 
+	font-size:16pt;
+	text-decoration:overline underline;
+	text-decoration-style:wavy;
+}
+
+p
+{
+	color:red;
+	font-family:Lucida Handwriting; 
+	font-size:12pt;
+	text-decoration: underline;
+	text-decoration-style:wavy;
+}
+
+pre
+{
+	font-size: x-large;
+	font: italic small-caps bold 22px/30px cursive;
+	color:teal;
+}
